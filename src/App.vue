@@ -6,7 +6,7 @@ import Main from './components/Main.vue'
 </script>
 
 <template>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Inter&display=swap" rel="stylesheet">
   <Header/>
   <Main/>
 </template>
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background: #f6f6f6;
+  background: #0A192F;
   line-height: 1.625;
   margin: 0;
   padding: 0;

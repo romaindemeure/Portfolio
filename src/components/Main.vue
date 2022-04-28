@@ -2,7 +2,7 @@
     <div class="container">
 
         <div class="left">
-
+            <p>test</p>
         </div>
 
         <div class="main">
@@ -28,44 +28,47 @@
 </template>
 
 <style scoped>
-.container {
-    background: #0A192F;
-    height: 800px;
-}
 .container .main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     background: #0A192F;
     color: #fff;
-    height: 500px;
+    height: 600px;
     padding: 0 20px;
     max-width: 1100px;
     margin: 0 auto;
 }
 .container .main .textFirst {
-    margin: 10px 0 0;
+    margin: 0;
     font-size: 14px;
+    font-family: 'Fira code';
+    font-weight: 500;
     color: #64FFDA;
 }
 
 .container .main .textSecond {
-    margin: 10px 0 0;
+    margin: 5px 0 0;
     font-size: 50px;
+    font-family: 'Inter';
     color: #fff;
 }
 
 .container .main .textThird {
-    margin: 10px 0 0;
-    font-size: 30px;
+    margin: 0;
+    margin: -10px 0 0;
+    font-size: 50px;
+    font-family: 'Inter';
     color: #8892B0;
 }
 .container .main .textFour {
-    margin: 10px 0 0;
+    margin: 5px 0 0;
+    font-size: 16px;
+    font-family: 'Inter';
     color: #8892B0;
 }
 .container .main .divButton {
-    margin: 30px 0 0;
+    margin: 30px 0;
 }
 .container .main .textButton {
     color: #64FFDA;
