@@ -74,7 +74,7 @@
     color: #64FFDA;
     border: solid 1px #64FFDA;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px 50px;
     cursor: pointer;
 }
 .container .main .textButton:hover {
