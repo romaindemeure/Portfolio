@@ -1,10 +1,6 @@
 <template>
     <div class="container">
 
-        <div class="left">
-            <p>test</p>
-        </div>
-
         <div class="main">
 
             <h1 class="textFirst">Salut, mon nom est</h1>
@@ -20,14 +16,14 @@
 
         </div>
 
-        <div class="right">
-
-        </div>
-
     </div>
 </template>
 
 <style scoped>
+.container {
+    display: flex;
+    height: 1500px;
+}
 .container .main {
     display: flex;
     justify-content: center;
@@ -39,6 +35,7 @@
     max-width: 1100px;
     margin: 0 auto;
 }
+
 .container .main .textFirst {
     margin: 0;
     font-size: 14px;

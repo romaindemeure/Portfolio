@@ -3,11 +3,15 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import EmailRight from './components/EmailRight.vue'
+import Linkleft from './components/LinkLeft.vue'
 </script>
 
 <template>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Inter&display=swap" rel="stylesheet">
   <Header/>
+  <EmailRight/>
+  <Linkleft/>
   <Main/>
 </template>
 
