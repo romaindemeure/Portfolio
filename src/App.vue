@@ -5,6 +5,7 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import EmailRight from './components/EmailRight.vue'
 import Linkleft from './components/LinkLeft.vue'
+import Apropos from './components/Apropos.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Linkleft from './components/LinkLeft.vue'
   <EmailRight/>
   <Linkleft/>
   <Main/>
+  <Apropos/>
 </template>
 
 <style>

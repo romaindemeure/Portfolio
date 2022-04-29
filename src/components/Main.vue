@@ -7,7 +7,7 @@
             <h2 class="textSecond">Romain Demeure</h2>
             <h3 class="textThird">Je construit des choses sur le web.</h3>
             <p class="textFour">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore nihil eos a perferendis natus, earum laborum maxime non at repellendus vero, iste ipsa reprehenderit atque fugit incidunt porro dicta!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore nihil eos a perferendis natus, earum laborum maxime non at repellendus vero. earum laborum maxime non at repellendus vero.
             </p>
 
             <div class="divButton">
@@ -22,7 +22,7 @@
 <style scoped>
 .container {
     display: flex;
-    height: 1500px;
+    height: 800px;
 }
 .container .main {
     display: flex;
@@ -63,6 +63,7 @@
     font-size: 16px;
     font-family: 'Inter';
     color: #8892B0;
+    max-width: 540px;
 }
 .container .main .divButton {
     margin: 30px 0;
