@@ -21,8 +21,8 @@
 
 <style scoped>
 .container {
-    display: flex;
-    height: 800px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .container .main {
     display: flex;
@@ -31,9 +31,6 @@
     background: #0A192F;
     color: #fff;
     height: 600px;
-    padding: 0 20px;
-    max-width: 1100px;
-    margin: 0 auto;
 }
 
 .container .main .textFirst {
