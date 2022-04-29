@@ -4,8 +4,8 @@
         <div class="left">
 
             <div class="divEmail">
-                <a href="https://github.com/romaindemeure" class="leftEmail"><img class="svg" src="/src/assets/svg/github.svg" alt=""></a>
                 <a href="https://www.linkedin.com/in/romain-demeure-a2a18b215/" class="leftEmail"><img class="svg" src="/src/assets/svg/linkedin.svg" alt=""></a>
+                <a href="https://github.com/romaindemeure" class="leftEmail"><img class="svg" src="/src/assets/svg/github.svg" alt=""></a>
                 <a href="https://www.instagram.com/romain.dme/?hl=fr" class="leftEmail"><img class="svg" src="/src/assets/svg/instagram.svg" alt=""></a>
                 <a href="https://www.facebook.com/profile.php?id=100010117632884" class="leftEmail"><img class="svg" src="/src/assets/svg/facebook.svg" alt=""></a>
             </div>
