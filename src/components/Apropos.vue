@@ -1,7 +1,7 @@
 <template>
     <div class="container">
 
-        <div class="about">
+        <section class="about">
 
             <div class="aboutDivText">
                 <h1 class="aboutMe"><span class="color">01.</span> A Propos</h1>
@@ -14,7 +14,7 @@
 
             </div>
 
-        </div>
+        </section>
 
     </div>
 </template>
