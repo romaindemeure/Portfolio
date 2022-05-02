@@ -1,20 +1,25 @@
 <template>
     <div class="container">
 
-        <section class="about">
+        <main class="about">
 
-            <div class="aboutDivText">
-                <h1 class="aboutMe"><span class="color">01.</span> A Propos</h1>
-                <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iusto ducimus eum, aliquam voluptatibus rem. Fuga cupiditate consectetur atque, aut laboriosam asperiores quaerat quia consequatur omnis similique nulla suscipit tempore.</p>
-                <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus laboriosam eligendi voluptatem. Esse excepturi, ut, quidem labore aspernatur animi saepe aut cupiditate, cum quasi obcaecati! Quas sint temporibus sunt.</p>
-                <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus consequuntur animi nemo magni, unde in perspiciatis laboriosam ut eius !</p>
-            </div>
-            
-            <div class="aboutPicture">
+            <section class="section">
 
-            </div>
+                <div class="aboutDivText">
+                    <h1 class="aboutMe"><span class="color">01.</span> A Propos</h1>
+                    <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iusto ducimus eum, aliquam voluptatibus rem. Fuga cupiditate consectetur atque, aut laboriosam asperiores quaerat quia consequatur omnis similique nulla suscipit tempore.</p>
+                    <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus laboriosam eligendi voluptatem. Esse excepturi, ut, quidem labore aspernatur animi saepe aut cupiditate, cum quasi obcaecati! Quas sint temporibus sunt.</p>
+                    <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus consequuntur animi nemo magni, unde in perspiciatis laboriosam ut eius !</p>
+                </div>
+                
+                <div class="aboutPicture">
+                    <img src=".src/assets/photoDeProfil.jpg" alt="">
+                </div>
 
-        </section>
+            </section>
+
+
+        </main>
 
     </div>
 </template>
@@ -23,13 +28,24 @@
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 100px;
 }
 .container .about {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+.container .about .section {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .container .about .aboutDivText {
+    width: 50%;
+}
+.container .about .aboutPicture {
     width: 50%;
 }
 .container .about .aboutMe {

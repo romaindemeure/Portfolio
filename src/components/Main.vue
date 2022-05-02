@@ -1,96 +1,95 @@
 <template>
     <div class="container">
+        <main class="main">
 
-        <section class="main">
-            
-            <div class="content">
-                <h1 class="textFirst">Salut, mon nom est</h1>
-            </div>
-            
-            <div class="content">
-                <h2 class="textSecond">Romain Demeure.</h2>
-            </div>
+            <section>
+                <div class="box">
+                    <h1 class="text myNameIs">Salut, mon nom est</h1>
+                </div>
 
-            <div class="content">
-                <h3 class="textThird">Je construit des choses sur le web.</h3>
-            </div>
+                <div class="box">
+                    <h2 class="text me">Demeure Romain</h2>
+                </div>
 
-            <div class="content">
-                <p class="textFour">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore nihil eos a perferendis natus, earum laborum maxime non at repellendus vero. earum laborum maxime non at repellendus vero.
-                </p>
-            </div>
-            
-            <div class="divButton content">
-                <a href="" class="textButton">Button</a>
-            </div>
+                <div class="box">
+                    <h3 class="text iBuild">Je créer des choses sur le web</h3>
+                </div>
 
-        </section>
+                <div class="box boxText">
+                    <p class="text description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, repellendus aspernatur. Dicta explicabo error quaerat? Facere omnis, excepturi hic molestiae aperiam laborum doloremque quo eveniet eligendi amet officia neque illo.</p>
+                </div>
 
+                <div class="box boxButton">
+                    <a href="" class="text button">Mon GitHub</a>
+                </div>
+            </section>
+
+        </main>
     </div>
 </template>
 
 <style scoped>
+/* Creation de notre estpace de travail pour travailler au milieu de notre page */
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 100px;
 }
+
+/* Creation de la flexbox colum center  */
 .container .main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
-    min-height: 1100px;
-    margin: -200px 0 50px;
-}
-.container .main .content {
-    margin: 5px 0;
+    justify-content: center;
+    height: 750px;
 }
 
-.container .main .textFirst {
+/* Reset de nos padding et margin  */
+.container .main .box .text {
+    padding: 0;
     margin: 0;
-    font-size: 14px;
-    font-family: 'Fira code';
-    font-weight: 500;
+}
+
+.container .main .box .myNameIs {
     color: #64FFDA;
-}
-
-.container .main .textSecond {
-    margin: 5px 0 0;
-    font-size: 60px;
-    font-family: 'Inter';
-    color: #fff;
-}
-
-.container .main .textThird {
-    margin: 0;
-    margin: -10px 0 0;
-    font-size: 60px;
-    font-family: 'Inter';
-    color: #8892B0;
-}
-.container .main .textFour {
-    margin: 5px 0 0;
     font-size: 16px;
-    font-family: 'Inter';
-    color: #8892B0;
+}
+
+.container .main .box .me {
+    font-size: 60px;
+}
+
+.container .main .box .iBuild {
+    font-size: 50px;
+    color: #CCD6F6;
+}
+
+.container .main .box .description {
+    font-size: 14px;
+    color: #CCD6F6;
     max-width: 540px;
 }
-.container .main .divButton {
-    margin-top: 50px;
+.container .main .boxButton {
+    padding-top: 40px;
 }
-.container .main .textButton {
+
+.container .main .boxText {
+    padding: 20px 0;
+}
+.container .main .box .button {
     color: #64FFDA;
     border: solid 1px #64FFDA;
     border-radius: 5px;
-    padding: 15px 50px;
+    padding: 15px 30px;
     cursor: pointer;
 }
-.container .main .textButton:hover {
+
+.container .main .box .button:hover {
     background-color: #64FFDA;
     color: #0A192F;
     transition: color, background-color 0.5s;
 }
+
 </style>
 
 <script setup lang="ts">

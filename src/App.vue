@@ -2,10 +2,12 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Header from './components/Header.vue'
-import Main from './components/Main.vue'
 import EmailRight from './components/EmailRight.vue'
 import Linkleft from './components/LinkLeft.vue'
+import Main from './components/Main.vue'
 import Apropos from './components/Apropos.vue'
+import PersonalProjects from './components/personalProjects.vue'
+
 </script>
 
 <template>
@@ -15,6 +17,7 @@ import Apropos from './components/Apropos.vue'
   <Linkleft/>
   <Main/>
   <Apropos/>
+  <PersonalProjects/>
 </template>
 
 <style>
@@ -24,6 +27,7 @@ html {
 
 body {
   background: #0A192F;
+  color: #fff;
   line-height: 1.625;
   margin: 0;
   padding: 0;
