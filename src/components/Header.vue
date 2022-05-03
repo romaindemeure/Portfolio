@@ -10,7 +10,7 @@
             <div class="link">
                 <router-link to="" class="navText"><span class="color">01.</span>A Propos</router-link>
                 <router-link to="" class="navText"><span class="color">02.</span>Créations</router-link>
-                <router-link to="" class="navText"><span class="color">03.</span>Formation</router-link>
+                <router-link to="" class="navText"><span class="color">03.</span>Formations</router-link>
                 <router-link to="" class="navText"><span class="color">04.</span>Contact</router-link>
                 <router-link to="" class="navText CV">Mon CV</router-link>
             </div>

@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="box boxButton">
-                    <a href="" class="text button">Mon GitHub</a>
+                    <a href="https://github.com/romaindemeure" class="text button">Mon GitHub</a>
                 </div>
             </section>
 
@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 750px;
+    height: 800px;
 }
 
 /* Reset de nos padding et margin  */
