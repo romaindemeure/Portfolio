@@ -5,10 +5,6 @@
 
             <section class="section">
 
-                <div class="header">
-                    <h1><span class="color">02.</span>  Mes Créations</h1>
-                </div>
-
                 <div class="main">
 
                     <div class="left">
@@ -61,7 +57,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 800px;
+    height: 400px;
 }
 .container .about .section {
     position: relative;
@@ -72,21 +68,17 @@
 }
 .container .about .section .main {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
 }
-
 .container .about .section .main .left {
     position: absolute;
-    left: 0;
-}
-/* .container .about .section .main .left .img {
-    position: relative;
-} */
-.container .about .section .main .right {
-    text-align: right;
-    position: absolute;
     right: 0;
+}
+.container .about .section .main .right {
+    text-align: left;
+    position: absolute;
+    left: 0;
 }
 
 .container .about .section .main .right .divPresentation .presentation {
@@ -101,9 +93,10 @@
 }
 .container .about .section .main .right .divList .list {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
+    padding: 0;
 }
 
 .container .about .section .main .right .divList .list .listElement {

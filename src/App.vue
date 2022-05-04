@@ -6,7 +6,8 @@ import EmailRight from './components/EmailRight.vue'
 import Linkleft from './components/LinkLeft.vue'
 import Main from './components/Main.vue'
 import Apropos from './components/Apropos.vue'
-import PersonalProjects from './components/personalProjects.vue'
+import PersonalProjectsRight from './components/personalProjectsRight.vue'
+import personalProjectsLeft from './components/personalProjectsLeft.vue'
 
 </script>
 
@@ -17,7 +18,8 @@ import PersonalProjects from './components/personalProjects.vue'
   <Linkleft/>
   <Main/>
   <Apropos/>
-  <PersonalProjects/>
+  <PersonalProjectsRight/>
+  <personalProjectsLeft/>
 </template>
 
 <style>
