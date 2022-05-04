@@ -18,7 +18,7 @@
                         </div>
 
                         <div class="divProjectName">
-                            <h2 class="projectName">Création d'un blog</h2>
+                            <h2 class="projectName">Création d'un blog Django</h2>
                         </div>
                         
                         <div class="divText">
@@ -57,7 +57,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 200px;
 }
 .container .about .section {
     position: relative;
@@ -66,6 +66,7 @@
 .container .about .section .header .color{
     color: #64FFDA;
 }
+
 .container .about .section .main {
     display: flex;
     flex-direction: row-reverse;
@@ -74,6 +75,9 @@
 .container .about .section .main .left {
     position: absolute;
     right: 0;
+}
+.container .about .section .main .left .img {
+    border-radius: 5px;
 }
 .container .about .section .main .right {
     text-align: left;
@@ -102,9 +106,6 @@
 .container .about .section .main .right .divList .list .listElement {
     margin: 0 10px;
 }
-
-
-
 
 </style>
 

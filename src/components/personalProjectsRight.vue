@@ -6,7 +6,7 @@
             <section class="section">
 
                 <div class="header">
-                    <h1><span class="color">02.</span>  Mes Créations</h1>
+                    <h1 class="title"><span class="color">02.</span>  Mes Créations</h1>
                 </div>
 
                 <div class="main">
@@ -22,7 +22,7 @@
                         </div>
 
                         <div class="divProjectName">
-                            <h2 class="projectName">Le Ptit Jeannot</h2>
+                            <h2 class="projectName">Création d'un Restaurant Vue.Js3</h2>
                         </div>
                         
                         <div class="divText">
@@ -42,6 +42,40 @@
                         
                     </div>
                 </div>
+                <!-- test -->
+                <!-- <div class="main">
+
+                    <div class="left">
+                        <img class="img" src="https://via.placeholder.com/600x300" alt="">
+                    </div>
+
+                    <div class="right">
+
+                        <div class="divPresentation">
+                            <h1 class="presentation">Site Internet | Backend</h1>
+                        </div>
+
+                        <div class="divProjectName">
+                            <h2 class="projectName">Création d'un blog Django</h2>
+                        </div>
+                        
+                        <div class="divText">
+                            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quibusdam, debitis deleniti voluptatum cumque tenetur minus quaerat qui, molestias non facere expedita explicabo tempora placeat suscipit dignissimos quos iure inventore.</p>
+                        </div>
+
+                        <div class="divList">
+
+                            <ul class="list">
+                                <li class="listElement">HTML</li>
+                                <li class="listElement">Css</li>
+                                <li class="listElement">Python</li>
+                                <li class="listElement">Django</li>
+                            </ul>
+
+                        </div>
+                        
+                    </div>
+                </div> -->
 
             </section>
 
@@ -65,11 +99,15 @@
 }
 .container .about .section {
     position: relative;
-    bottom: 200px;
+    bottom:200px;
 }
-.container .about .section .header .color{
+.container .about .section .header .title {
+    font-size: 25px;
+}
+.container .about .section .header .title .color {
     color: #64FFDA;
 }
+
 .container .about .section .main {
     display: flex;
     flex-direction: row;
@@ -79,6 +117,9 @@
 .container .about .section .main .left {
     position: absolute;
     left: 0;
+}
+.container .about .section .main .left .img {
+    border-radius: 5px;
 }
 
 .container .about .section .main .right {
@@ -107,9 +148,6 @@
 .container .about .section .main .right .divList .list .listElement {
     margin: 0 10px;
 }
-
-
-
 
 </style>
 

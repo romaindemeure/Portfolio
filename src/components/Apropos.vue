@@ -1,22 +1,26 @@
 <template>
     <div class="container">
-
+        <a href="#about"></a>
         <main class="about">
 
             <section class="section">
-                <h1 class="aboutMe"><span class="color">01.</span> A Propos</h1>
+                
+                <div>
+                    <h1 class="title"><span class="color">01.</span> A Propos de moi</h1>
+                </div>
+        
 
                 <div class="text">
                     
-                <div class="aboutDivText">
-                    <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iusto ducimus eum, aliquam voluptatibus rem. Fuga cupiditate consectetur atque, aut laboriosam asperiores quaerat quia consequatur omnis similique nulla suscipit tempore.</p>
-                    <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus laboriosam eligendi voluptatem. Esse excepturi, ut, quidem labore aspernatur animi saepe aut cupiditate, cum quasi obcaecati! Quas sint temporibus sunt.</p>
-                    <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus consequuntur animi nemo magni, unde in perspiciatis laboriosam ut eius !</p>
-                </div>
-                
-                <div class="aboutPicture">
-                    <img class="me" src="src/assets/photoDeProfil.jpg" alt="">
-                </div>
+                    <div class="aboutDivText">
+                        <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iusto ducimus eum, aliquam voluptatibus rem. Fuga cupiditate consectetur atque, aut laboriosam asperiores quaerat quia consequatur omnis similique nulla suscipit tempore.</p>
+                        <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus laboriosam eligendi voluptatem. Esse excepturi, ut, quidem labore aspernatur animi saepe aut cupiditate, cum quasi obcaecati! Quas sint temporibus sunt.</p>
+                        <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus consequuntur animi nemo magni, unde in perspiciatis laboriosam ut eius !</p>
+                    </div>
+                    
+                    <div class="aboutPicture">
+                        <img class="me" src="src/assets/photoDeProfil.jpg" alt="">
+                    </div>
 
                 </div>
 
@@ -46,6 +50,9 @@
     flex-direction: row;
     justify-content: center;
 }
+.container .about .section .title {
+    font-size: 25px;
+} 
 
 .container .about .aboutDivText {
     width: 50%;
@@ -61,10 +68,10 @@
     height: 250px;
     width: auto;
 }
-.container .about .aboutMe {
+.container .about .title {
     color: #fff;
 }
-.container .about .aboutMe .color {
+.container .about .title .color {
     color: #64FFDA;
 }
 

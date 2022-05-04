@@ -7,7 +7,9 @@ import Linkleft from './components/LinkLeft.vue'
 import Main from './components/Main.vue'
 import Apropos from './components/Apropos.vue'
 import PersonalProjectsRight from './components/personalProjectsRight.vue'
-import personalProjectsLeft from './components/personalProjectsLeft.vue'
+import PersonalProjectsLeft from './components/personalProjectsLeft.vue'
+import Certifications from './components/Certifications.vue'
+import Contact from './components/Contact.vue'
 
 </script>
 
@@ -19,7 +21,9 @@ import personalProjectsLeft from './components/personalProjectsLeft.vue'
   <Main/>
   <Apropos/>
   <PersonalProjectsRight/>
-  <personalProjectsLeft/>
+  <PersonalProjectsLeft/>
+  <Certifications/>
+  <Contact/>
 </template>
 
 <style>
