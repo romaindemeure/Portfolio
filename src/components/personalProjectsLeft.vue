@@ -14,11 +14,11 @@
                     <div class="right">
 
                         <div class="divPresentation">
-                            <h1 class="presentation">Site Internet</h1>
+                            <h1 class="presentation">Site Internet | Backend</h1>
                         </div>
 
                         <div class="divProjectName">
-                            <h2 class="projectName">Le Ptit Jeannot</h2>
+                            <h2 class="projectName">Création d'un blog</h2>
                         </div>
                         
                         <div class="divText">
@@ -30,8 +30,8 @@
                             <ul class="list">
                                 <li class="listElement">HTML</li>
                                 <li class="listElement">Css</li>
-                                <li class="listElement">Javascript/Typescript</li>
-                                <li class="listElement">Vue.Js3</li>
+                                <li class="listElement">Python</li>
+                                <li class="listElement">Django</li>
                             </ul>
 
                         </div>

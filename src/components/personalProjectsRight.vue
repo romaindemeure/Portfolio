@@ -18,7 +18,7 @@
                     <div class="right">
 
                         <div class="divPresentation">
-                            <h1 class="presentation">Site Internet</h1>
+                            <h1 class="presentation">Site Internet | Frontend</h1>
                         </div>
 
                         <div class="divProjectName">
