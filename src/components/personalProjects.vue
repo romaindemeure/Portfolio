@@ -12,7 +12,7 @@
                 <div class="main">
 
                     <div class="left">
-                        <img class="img" src="https://via.placeholder.com/500x300" alt="">
+                        <img class="img" src="https://via.placeholder.com/600x300" alt="">
                     </div>
 
                     <div class="right">
@@ -63,6 +63,10 @@
     justify-content: center;
     height: 800px;
 }
+.container .about .section {
+    position: relative;
+    bottom: 200px;
+}
 .container .about .section .header .color{
     color: #64FFDA;
 }
@@ -73,11 +77,16 @@
 }
 
 .container .about .section .main .left {
-    width: 50%;
+    position: absolute;
+    left: 0;
 }
+/* .container .about .section .main .left .img {
+    position: relative;
+} */
 .container .about .section .main .right {
     text-align: right;
-    width: 50%;
+    position: absolute;
+    right: 0;
 }
 
 .container .about .section .main .right .divPresentation .presentation {
@@ -86,6 +95,7 @@
 }
 .container .about .section .main .right .divText {
     background: #112240;
+    max-width: 550px;
     padding: 15px;
     border-radius: 5px;
 }
