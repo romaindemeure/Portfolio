@@ -10,11 +10,11 @@
                 <div class="main">
 
                     <div class="divText">
-                        <p class="text">Étant admis a l'école CESI de Brest, je suis actuellement à la recherche d'une alternance dans le dev en Bretagne. Actuellement je touche un peu à tout (back, front) j'aimerais aujourd'hui approfondir mes compétences en développement grâce à une immersion en entreprise. Si vous avez une question ou que vous souhaitez simplement me saluer, je vous répondrais avec plaisir.</p>
+                        <p class="text">Étant admis a l'école CESI de Brest, <span class="color">je suis actuellement à la recherche d'une alternance dans le développement en Bretagne.</span>  Ayant tout appris en autodidacte, je touche un peu à tout (back, front), j'aimerais aujourd'hui approfondir mes compétences en développement grâce à une immersion en entreprise. Si mon profil vous intéresse, vous avez une question ou que vous souhaitez simplement me saluer, je vous répondrais avec plaisir.</p>
                     </div>
 
                     <div class="divButton">
-                        <a href="mailto:demeureromain4@gmail.com" class="button">blabla</a>
+                        <a href="mailto:demeureromain4@gmail.com" class="button">envoyer un message</a>
                     </div>
 
                 </div>
@@ -28,7 +28,7 @@
 <style scoped>
 .container {
     max-width: 1100px;
-    margin: 400px auto;
+    margin: 200px auto;
     padding: 0 100px;
 }
 
@@ -37,7 +37,9 @@
     flex-direction: column;
     justify-content: center;
 }
-
+.container .contact .section .header {
+    margin-bottom: 40px;
+}
 .container .contact .section .header .title {
     font-size: 25px;
 }
@@ -45,7 +47,37 @@
 .container .contact .section .header .title .color {
     color: #64FFDA;
 }
+.container .contact .section .main {
+    text-align: center;
+}
+.container .contact .section .main .divText {
+    background: #112240;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px 200px;
+}
 
+.container .contact .section .main .divText .text {
+    text-align: center;
+    font-size: 14px;
+}
+.container .contact .section .main .divText .text .color {
+    color: #64FFDA;
+    font-weight: 600;
+}
+.container .main .divButton .button {
+    color: #64FFDA;
+    border: solid 1px #64FFDA;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.container .main .divButton .button:hover {
+    background-color: #64FFDA;
+    color: #0A192F;
+    transition: color, background-color 0.5s;
+}
 
 
 </style>

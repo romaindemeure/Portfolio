@@ -1,11 +1,10 @@
 <template>
     <div class="container">
-        <a href="#about"></a>
         <main class="about">
 
             <section class="section">
                 
-                <div>
+                <div class="header">
                     <h1 class="title"><span class="color">01.</span> A Propos de moi</h1>
                 </div>
         
@@ -37,18 +36,20 @@
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 100px;
+    padding: 200px 100px;
 }
 .container .about {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 800px;
 }
 .container .about .text {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.container .about .section .header {
+    margin-bottom: 40px;
 }
 .container .about .section .title {
     font-size: 25px;

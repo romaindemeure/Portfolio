@@ -33,7 +33,7 @@
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 100px;
+    padding: 200px 100px;
 }
 
 /* Creation de la flexbox colum center  */
@@ -41,7 +41,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 800px;
 }
 
 /* Reset de nos padding et margin  */

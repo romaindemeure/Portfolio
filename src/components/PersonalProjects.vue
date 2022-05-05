@@ -1,15 +1,13 @@
 <template>
     <div class="container">
 
-        <main class="about">
-
             <section class="section">
 
                 <div class="header">
                     <h1 class="title"><span class="color">02.</span>  Mes Créations</h1>
                 </div>
 
-                <div class="main">
+                <div class="mainLeft">
 
                     <div class="left">
                         <img class="img" src="https://via.placeholder.com/600x300" alt="">
@@ -43,13 +41,13 @@
                     </div>
                 </div>
                 <!-- test -->
-                <!-- <div class="main">
+                <div class="mainRight">
 
-                    <div class="left">
+                    <div class="right">
                         <img class="img" src="https://via.placeholder.com/600x300" alt="">
                     </div>
 
-                    <div class="right">
+                    <div class="left">
 
                         <div class="divPresentation">
                             <h1 class="presentation">Site Internet | Backend</h1>
@@ -75,77 +73,119 @@
                         </div>
                         
                     </div>
-                </div> -->
+                </div>
 
             </section>
-
-
-        </main>
-
     </div>
 </template>
 
 <style scoped>
 .container {
+    display: block;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 400px auto;
     padding: 0 100px;
 }
-.container .about {
+
+.container .section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 800px;
-}
-.container .about .section {
     position: relative;
-    bottom:200px;
+    bottom: 200px;
 }
-.container .about .section .header .title {
+.container .section .header {
+    margin-bottom: 40px;
+}
+.container .section .header .title {
     font-size: 25px;
 }
-.container .about .section .header .title .color {
+.container .section .header .title .color {
     color: #64FFDA;
 }
 
-.container .about .section .main {
+.container .section .mainLeft {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.container .about .section .main .left {
+.container .section .mainLeft .left {
     position: absolute;
     left: 0;
 }
-.container .about .section .main .left .img {
+.container .section .mainLeft .left .img {
     border-radius: 5px;
 }
 
-.container .about .section .main .right {
+.container .section .mainLeft .right {
     text-align: right;
     position: absolute;
     right: 0;
 }
 
-.container .about .section .main .right .divPresentation .presentation {
+.container .section .mainLeft .right .divPresentation .presentation {
     font-size: 16px;
     color: #64FFDA;
 }
-.container .about .section .main .right .divText {
+.container .section .mainLeft .right .divText {
     background: #112240;
     max-width: 550px;
     padding: 15px;
     border-radius: 5px;
 }
-.container .about .section .main .right .divList .list {
+.container .section .mainLeft .right .divList .list {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     list-style: none;
 }
 
-.container .about .section .main .right .divList .list .listElement {
+.container .section .mainLeft .right .divList .list .listElement {
+    margin: 0 10px;
+}
+/* droite */
+
+.container .section .mainRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.container .section .mainRight .right {
+    position: absolute;
+    right: 0;
+}
+.container .section .mainRight .right .img {
+    border-radius: 5px;
+}
+
+.container .section .mainRight .left {
+    text-align: left;
+    position: absolute;
+    left: 0;
+}
+
+.container .section .mainRight .left .divPresentation .presentation {
+    font-size: 16px;
+    color: #64FFDA;
+}
+.container .section .mainRight .left .divText {
+    background: #112240;
+    max-width: 550px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.container .section .mainRight .left .divList .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.container .section .mainRight .left .divList .list .listElement {
     margin: 0 10px;
 }
 

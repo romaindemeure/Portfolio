@@ -62,8 +62,8 @@
 <style scoped>
 .container {
     max-width: 1100px;
-    margin: 400px auto;
-    padding: 0 100px;
+    margin: 0 auto;
+    padding: 200px 100px;
 }
 
 .container .certification {
@@ -71,7 +71,9 @@
     flex-direction: column;
     justify-content: center;
 }
-
+.container .certification .section .header {
+    margin-bottom: 40px;
+}
 .container .certification .section .header .title {
     font-size: 25px;
 }

@@ -6,10 +6,10 @@ import EmailRight from './components/EmailRight.vue'
 import Linkleft from './components/LinkLeft.vue'
 import Main from './components/Main.vue'
 import Apropos from './components/Apropos.vue'
-import PersonalProjectsRight from './components/personalProjectsRight.vue'
-import PersonalProjectsLeft from './components/personalProjectsLeft.vue'
+import PersonalProjects from './components/PersonalProjects.vue'
 import Certifications from './components/Certifications.vue'
 import Contact from './components/Contact.vue'
+import Footer from './components/Footer.vue'
 
 </script>
 
@@ -20,10 +20,10 @@ import Contact from './components/Contact.vue'
   <Linkleft/>
   <Main/>
   <Apropos/>
-  <PersonalProjectsRight/>
-  <PersonalProjectsLeft/>
+  <PersonalProjects/>
   <Certifications/>
   <Contact/>
+  <Footer/>
 </template>
 
 <style>
