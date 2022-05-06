@@ -61,11 +61,9 @@
 
 <style scoped>
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 200px 100px;
+    margin: 0 20px;
+    margin-top: 200px;
 }
-
 .container .certification {
     display: flex;
     flex-direction: column;
@@ -73,9 +71,6 @@
 }
 .container .certification .section .header {
     margin-bottom: 40px;
-}
-.container .certification .section .header .title {
-    font-size: 25px;
 }
 
 .container .certification .section .header .title .color {
@@ -97,6 +92,27 @@
 .container .certification .section .main .box .textCertification .color {
     color: #64FFDA;
 }
+
+@media only screen and (min-width: 900px) {
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 200px 100px;
+    }
+
+    .container .certification {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container .certification .section .header {
+        margin-bottom: 40px;
+    }
+    .container .certification .section .header .title {
+        font-size: 25px;
+    }
+}
+
 </style>
 
 <script setup lang="ts">
