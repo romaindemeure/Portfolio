@@ -48,7 +48,10 @@
 .container .topbar .menu .CV {
     display: none;
 }
-
+.container .topbar .menu .color {
+    color: #64FFDA;
+    margin-right: 2px;
+} 
 .container .topbar .divCV .CV {
     color: #64FFDA;
     border: solid 1px #64FFDA;
@@ -98,11 +101,6 @@
         font-weight: 500;
         color: white;
     }
-
-    .container .topbar .menu .color {
-        color: #64FFDA;
-        margin-right: 2px;
-    } 
 
     .navText {
         flex-direction: row;

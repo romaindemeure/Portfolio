@@ -29,57 +29,44 @@
 </template>
 
 <style scoped>
-/* Creation de notre estpace de travail pour travailler au milieu de notre page */
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 200px 100px;
-}
 
-/* Creation de la flexbox colum center  */
+.container {
+    margin: 0 20px;
+    margin-top: 100px;
+}
 .container .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-/* Reset de nos padding et margin  */
 .container .main .box .text {
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
 }
-
 .container .main .box .myNameIs {
     color: #64FFDA;
-    font-size: 16px;
+    font-size: 14px;
 }
-
 .container .main .box .me {
-    font-size: 60px;
+    font-size: 25px;
 }
-
 .container .main .box .iBuild {
-    font-size: 50px;
+    font-size: 25px;
     color: #CCD6F6;
 }
-
 .container .main .box .description {
     font-size: 14px;
     color: #CCD6F6;
-    max-width: 540px;
-}
-.container .main .boxButton {
-    padding-top: 40px;
 }
 
-.container .main .boxText {
-    padding: 20px 0;
+.container .main .boxButton {
+    margin-top: 40px;
 }
 .container .main .box .button {
     color: #64FFDA;
     border: solid 1px #64FFDA;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 10px 15px;
     cursor: pointer;
 }
 
@@ -87,6 +74,44 @@
     background-color: #64FFDA;
     color: #0A192F;
     transition: color, background-color 0.5s;
+}
+
+@media only screen and (min-width: 900px) {
+/* Creation de notre estpace de travail pour travailler au milieu de notre page */
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 200px 100px;
+    }
+
+    /* Reset de nos padding et margin  */
+    .container .main .box .text {
+        margin: 0;
+    }
+
+    .container .main .box .myNameIs {
+        font-size: 16px;
+    }
+
+    .container .main .box .me {
+        font-size: 60px;
+    }
+
+    .container .main .box .iBuild {
+        font-size: 50px;
+    }
+
+    .container .main .box .description {
+        max-width: 540px;
+    }
+
+    .container .main .boxText {
+        padding: 20px 0;
+    }
+    .container .main .box .button {
+        padding: 15px 30px;
+    }
+
 }
 
 </style>
