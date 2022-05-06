@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import Header2 from './components/Header2.vue'
+import Header from './components/Header.vue'
 import EmailRight from './components/EmailRight.vue'
 import Linkleft from './components/LinkLeft.vue'
 import Main from './components/Main.vue'
@@ -15,7 +15,7 @@ import Footer from './components/Footer.vue'
 
 <template>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Inter&display=swap" rel="stylesheet">
-  <Header2/>
+  <Header/>
   <EmailRight/>
   <Linkleft/>
   <Main/>
