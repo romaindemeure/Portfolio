@@ -34,10 +34,10 @@
 }
 
 .container .topbar .logo {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .container .topbar .divCV {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .container .topbar .menu .menuItem {
@@ -56,7 +56,7 @@
     color: #64FFDA;
     border: solid 1px #64FFDA;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px 20px;
     cursor: pointer;
     margin-left: 10px;
 }

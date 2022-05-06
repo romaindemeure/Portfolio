@@ -33,42 +33,17 @@
 </template>
 
 <style scoped>
+
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 200px 100px;
+    margin: 0 20px;
+    margin-top: 200px;
 }
-.container .about {
+.container .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.container .about .text {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.container .about .section .header {
-    margin-bottom: 40px;
-}
-.container .about .section .title {
-    font-size: 25px;
-} 
 
-.container .about .aboutDivText {
-    width: 50%;
-
-}
-.container .about .aboutPicture {
-    width: 50%;
-    text-align: center;
-    margin: 20px 0;
-}
-.container .about .section .aboutPicture .me {
-    border-radius: 5px;
-    height: 250px;
-    width: auto;
-}
 .container .about .title {
     color: #fff;
 }
@@ -78,6 +53,50 @@
 
 .container .about .aboutDivText .aboutText {
     color: #8892B0;
+}
+.container .about .section .aboutPicture {
+    text-align: center;
+}
+.container .about .section .aboutPicture .me {
+    margin-top: 40px;
+    border-radius: 5px;
+    height: 400px;
+    width: auto;
+}
+@media only screen and (min-width: 900px) {
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 200px 100px;
+    }
+    .container .about .text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container .about .section .header {
+        margin-bottom: 40px;
+    }
+    .container .about .section .title {
+        font-size: 25px;
+    } 
+
+    .container .about .aboutDivText {
+        width: 50%;
+
+    }
+    .container .about .aboutPicture {
+        width: 50%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .container .about .section .aboutPicture .me {
+        border-radius: 5px;
+        height: 250px;
+        width: auto;
+    }
+
 }
 
 
