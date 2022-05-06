@@ -118,7 +118,7 @@
     margin-right: 10px;
 }
 
-@media only screen and (min-width: 900px)  {
+@media only screen and (min-width: 1150px)  {
     .container {
         display: block;
         max-width: 1100px;

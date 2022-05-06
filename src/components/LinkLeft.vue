@@ -25,7 +25,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .container {
         display: block;
     }

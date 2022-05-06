@@ -14,7 +14,7 @@
                     </div>
 
                     <div class="divButton">
-                        <a href="mailto:demeureromain4@gmail.com" class="button">envoyer un message</a>
+                        <a href="mailto:demeureromain4@gmail.com" class="button">Envoyer un message</a>
                     </div>
 
                 </div>
