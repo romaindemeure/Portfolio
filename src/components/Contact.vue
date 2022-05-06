@@ -8,6 +8,9 @@
                 </div>
 
                 <div class="main">
+                    <div class="divTitle">
+                        <h1 class="title">Prendre Contacte Avec Moi</h1>
+                    </div>
 
                     <div class="divText">
                         <p class="text">Étant admis a l'école CESI de Brest, <span class="color">je suis actuellement à la recherche d'une alternance dans le développement en Bretagne.</span>  Ayant tout appris en autodidacte, je touche un peu à tout (back, front), j'aimerais aujourd'hui approfondir mes compétences en développement grâce à une immersion en entreprise. Si mon profil vous intéresse, vous avez une question ou que vous souhaitez simplement me saluer, je vous répondrais avec plaisir.</p>
@@ -31,21 +34,32 @@
     margin: 0 20px;
     margin-top: 200px;
 }
+
 .container .contact .section .header .title .color {
     color: #64FFDA;
 }
+
+.container .contact .section .main .divTitle {
+    text-align: center;
+    color: #CCD6F6;
+}
+
 .container .contact .section .main .divText {
     background: #112240;
     border-radius: 5px;
     padding: 15px;
+    text-align: center;
 }
+
 .container .contact .section .main .divText .text {
     margin: 0;
 }
+
 .container .main .divButton {
     text-align: center;
     margin-top: 50px;
 }
+
 .container .main .divButton .button {
     color: #64FFDA;
     border: solid 1px #64FFDA;
@@ -59,6 +73,7 @@
     color: #0A192F;
     transition: color, background-color 0.5s;
 }
+
 .container .contact .section .main .divText .text .color {
     color: #64FFDA;
     font-weight: 600;
