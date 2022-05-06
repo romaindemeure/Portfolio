@@ -59,7 +59,10 @@
     color: #0A192F;
     transition: color, background-color 0.5s;
 }
-
+.container .contact .section .main .divText .text .color {
+    color: #64FFDA;
+    font-weight: 600;
+}
 
 @media only screen and (min-width: 900px)  {
 
@@ -92,10 +95,7 @@
         text-align: center;
         font-size: 14px;
     }
-    .container .contact .section .main .divText .text .color {
-        color: #64FFDA;
-        font-weight: 600;
-    }
+
     .container .main .divButton .button {
         color: #64FFDA;
         border: solid 1px #64FFDA;

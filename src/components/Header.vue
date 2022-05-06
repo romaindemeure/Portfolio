@@ -58,7 +58,6 @@
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-    margin-left: 10px;
 }
 
 .container .topbar .divCV .CV:hover {
@@ -125,9 +124,7 @@
         color: #0A192F;
         cursor: pointer;
         transition: color, background-color 0.5s;
-    }
-
-    
+    }  
 }
 
 </style>

@@ -34,26 +34,32 @@
     margin: 0 20px;
     margin-top: 100px;
 }
+
 .container .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .container .main .box .text {
     padding: 0;
     margin: 20px 0;
 }
+
 .container .main .box .myNameIs {
     color: #64FFDA;
     font-size: 14px;
 }
+
 .container .main .box .me {
     font-size: 25px;
 }
+
 .container .main .box .iBuild {
     font-size: 25px;
     color: #CCD6F6;
 }
+
 .container .main .box .description {
     font-size: 14px;
     color: #CCD6F6;
@@ -62,6 +68,7 @@
 .container .main .boxButton {
     margin-top: 40px;
 }
+
 .container .main .box .button {
     color: #64FFDA;
     border: solid 1px #64FFDA;
