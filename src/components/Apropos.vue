@@ -63,6 +63,7 @@
     height: 400px;
     width: auto;
 }
+
 @media only screen and (min-width: 900px) {
 
     .container {
@@ -92,6 +93,7 @@
         margin: 20px 0;
     }
     .container .about .section .aboutPicture .me {
+        margin-top: 0;
         border-radius: 5px;
         height: 250px;
         width: auto;
