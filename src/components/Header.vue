@@ -46,7 +46,7 @@
     color: #64FFDA;
     cursor: pointer;
 }
-.container .nav .link .CV {
+.container .nav .boutton .CV {
     color: #64FFDA;
     border: solid 1px #64FFDA;
     border-radius: 5px;
@@ -66,6 +66,25 @@
 .navText {
     flex-direction: row;
 }
+
+@media only screen and (max-width: 800px) {
+    .container .nav {
+        background: lightcoral;
+        padding: 0;
+        display: block;
+    }
+    
+    .container .nav .link .CV {
+        color: #64FFDA;
+        border: solid 1px #64FFDA;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-left: 0;
+    }
+    
+}
+
 </style>
 
 <script setup lang="ts">

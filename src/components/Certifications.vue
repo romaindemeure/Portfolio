@@ -4,7 +4,7 @@
             <section class="section">
 
                 <div class="header">
-                    <h1 class="title"><span class="color">03.</span> Mes Formations</h1>
+                    <h1 class="title"><span class="color">03.</span> Les Formations que j'ai suivis</h1>
                 </div>
 
                 <div class="main">

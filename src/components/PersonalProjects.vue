@@ -80,6 +80,10 @@
 </template>
 
 <style scoped>
+
+@media only screen and (min-width: 800px) {
+    
+}
 .container {
     display: block;
     max-width: 1100px;

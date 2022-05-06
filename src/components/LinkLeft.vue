@@ -20,36 +20,46 @@
 </template>
 
 <style scoped>
-.container .left {
-    width: 40px;
-    height: 350px;
-    position: fixed;
-    bottom: 0;
-    right: auto;
-    left: 40px;
-    z-index: 10;
+
+.container {
+    display: none;
 }
 
-.svg {
-    fill: white;
-    height: 20px;
-    width: 20px;
-    margin: 10px 5px;
-    text-align: center;
-}
+@media only screen and (min-width: 800px) {
+    .container {
+        display: block;
+    }
+    .container .left {
+        width: 40px;
+        height: 350px;
+        position: fixed;
+        bottom: 0;
+        right: auto;
+        left: 40px;
+        z-index: 10;
+    }
 
-.svg:hover {
-    color: red;
-}
+    .svg {
+        fill: white;
+        height: 20px;
+        width: 20px;
+        margin: 10px 5px;
+        text-align: center;
+    }
 
-.whiteLine {
-    display: block;
-    width: 1px;
-    background: #fff;
-    height: 1000px;
-    margin: auto;
-    position: relative;
-    left: -6px;
+    .svg:hover {
+        color: red;
+    }
+
+    .whiteLine {
+        display: block;
+        width: 1px;
+        background: #fff;
+        height: 1000px;
+        margin: auto;
+        position: relative;
+        left: -6px;
+    }
 }
 
 
