@@ -13,11 +13,10 @@
 </template>
 
 <style scoped>
+
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 100px;
-    margin-top: 400px;
+    padding: 0 50px;
+    margin-top: 200px;
 }
 
 .container .footer .section .main {
@@ -30,6 +29,24 @@
     margin-bottom: 20px;
     color: #9DA7C5;
 }
+
+@media only screen and (min-width: 900px)  {
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 100px;
+    margin-top: 400px;
+}
+
+.container .footer .section .main .text {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #9DA7C5;
+}
+
+}
+
 
 </style>
 

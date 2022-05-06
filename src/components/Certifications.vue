@@ -80,8 +80,8 @@
 .container .certification .section .main .box {
     background: #112240;
     border-radius: 5px;
-    margin: 25px;
-    padding: 10px;
+    margin: 25px 0;
+    padding: 15px;
 }
 
 .container .certification .section .main .box .textCertification {

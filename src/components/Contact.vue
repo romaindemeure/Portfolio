@@ -26,50 +26,31 @@
 </template>
 
 <style scoped>
+
 .container {
-    max-width: 1100px;
-    margin: 200px auto;
-    padding: 0 100px;
+    margin: 0 20px;
+    margin-top: 200px;
 }
-
-.container .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.container .contact .section .header {
-    margin-bottom: 40px;
-}
-.container .contact .section .header .title {
-    font-size: 25px;
-}
-
 .container .contact .section .header .title .color {
     color: #64FFDA;
-}
-.container .contact .section .main {
-    text-align: center;
 }
 .container .contact .section .main .divText {
     background: #112240;
     border-radius: 5px;
-    padding: 20px;
-    margin: 50px 200px;
+    padding: 15px;
 }
-
 .container .contact .section .main .divText .text {
-    text-align: center;
-    font-size: 14px;
+    margin: 0;
 }
-.container .contact .section .main .divText .text .color {
-    color: #64FFDA;
-    font-weight: 600;
+.container .main .divButton {
+    text-align: center;
+    margin-top: 50px;
 }
 .container .main .divButton .button {
     color: #64FFDA;
     border: solid 1px #64FFDA;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 10px 15px;
     cursor: pointer;
 }
 
@@ -77,6 +58,57 @@
     background-color: #64FFDA;
     color: #0A192F;
     transition: color, background-color 0.5s;
+}
+
+
+@media only screen and (min-width: 900px)  {
+
+    .container {
+        max-width: 1100px;
+        margin: 200px auto;
+        padding: 0 100px;
+    }
+
+    .container .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container .contact .section .header {
+        margin-bottom: 40px;
+    }
+    .container .contact .section .header .title {
+        font-size: 25px;
+    }
+
+    .container .contact .section .main {
+        text-align: center;
+    }
+    .container .contact .section .main .divText {
+        margin: 50px 200px;
+    }
+
+    .container .contact .section .main .divText .text {
+        text-align: center;
+        font-size: 14px;
+    }
+    .container .contact .section .main .divText .text .color {
+        color: #64FFDA;
+        font-weight: 600;
+    }
+    .container .main .divButton .button {
+        color: #64FFDA;
+        border: solid 1px #64FFDA;
+        border-radius: 5px;
+        padding: 15px 30px;
+        cursor: pointer;
+    }
+
+    .container .main .divButton .button:hover {
+        background-color: #64FFDA;
+        color: #0A192F;
+        transition: color, background-color 0.5s;
+    }
 }
 
 
