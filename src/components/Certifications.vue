@@ -61,8 +61,7 @@
 
 <style scoped>
 .container {
-    margin: 0 20px;
-    margin-top: 200px;
+    margin: 200px 20px;
 }
 .container .certification {
     display: flex;

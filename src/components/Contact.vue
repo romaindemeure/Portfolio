@@ -31,8 +31,7 @@
 <style scoped>
 
 .container {
-    margin: 0 20px;
-    margin-top: 200px;
+    margin: 200px 20px;
 }
 
 .container .contact .section .header .title .color {
@@ -95,6 +94,7 @@
     .container .contact .section .header {
         margin-bottom: 40px;
     }
+
     .container .contact .section .header .title {
         font-size: 25px;
     }
@@ -102,6 +102,11 @@
     .container .contact .section .main {
         text-align: center;
     }
+    
+    .container .contact .section .main .divTitle {
+        font-size: 20px;
+    }
+
     .container .contact .section .main .divText {
         margin: 50px 200px;
     }

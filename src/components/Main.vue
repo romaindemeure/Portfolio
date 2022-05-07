@@ -31,8 +31,7 @@
 <style scoped>
 
 .container {
-    margin: 0 20px;
-    margin-top: 100px;
+    margin: 100px 20px;
 }
 
 .container .main {

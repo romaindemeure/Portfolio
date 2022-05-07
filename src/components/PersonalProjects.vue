@@ -81,8 +81,7 @@
 
 <style scoped>
 .container {
-    margin: 0 20px;
-    margin-top: 200px;
+    margin: 200px 20px;
 }
 .container .section .header .title .color {
     color: #64FFDA;
@@ -90,6 +89,18 @@
 .container .section .mainLeft {
     margin-bottom: 100px;
 }
+.container .section .mainLeft .right .divText {
+    background: #112240;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.container .section .mainRight .left .divText {
+    background: #112240;
+    padding: 15px;
+    border-radius: 5px;
+}
+
 .container .section .mainLeft .right .divPresentation .presentation {
     color: #64FFDA;
 }
