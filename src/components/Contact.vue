@@ -1,15 +1,16 @@
 <template>
+<a name="contactPage"></a>
     <div class="container">
         <main class="contact">
             <section class="section">
-                <a name="contactPage"></a>
+
                 <div class="header">
-                    <h1 class="title"><span class="color">03.</span> Me contacter</h1>
+                    <h1 class="title"><span class="color">04.</span> Me contacter</h1>
                 </div>
 
                 <div class="main">
                     <div class="divTitle">
-                        <h1 class="title">Prendre Contacte Avec Moi</h1>
+                        <h1 class="title">Prendre contact avec moi</h1>
                     </div>
 
                     <div class="divText">

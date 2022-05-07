@@ -36,6 +36,7 @@
 .container .topbar .logo {
     margin-bottom: 30px;
 }
+
 .container .topbar .divCV {
     margin-top: 30px;
 }
@@ -85,6 +86,9 @@
 
     .container .topbar .divCV {
         display: none;
+    }
+    .container .topbar .logo {
+        margin-bottom: 0;
     }
 
     .container .topbar .logo .navLogo {
