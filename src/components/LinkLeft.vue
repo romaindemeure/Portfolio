@@ -53,7 +53,7 @@
     .icon {
         display: block;
         font-size: 20px;
-        margin: 15px 0;
+        margin: 20px 0;
     }
     .icon:hover {
         color: #64FFDA;

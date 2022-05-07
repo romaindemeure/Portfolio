@@ -23,6 +23,7 @@
     .container {
         display: block;
     }
+    
     .container .right {
         width: 40px;
         height: 350px;
@@ -39,6 +40,7 @@
         align-items: center;
         position: relative;
     }
+
     .container .right .divEmail .rightEmail {
         position: relative;
         transform: rotate(90deg);
@@ -46,6 +48,11 @@
         letter-spacing: 1.5px;
         line-height: 80px;
     }
+
+    .container .right .divEmail .rightEmail:hover {
+        color: #64FFDA;
+    }
+
     .whiteLine {
         display: block;
         width: 1px;
