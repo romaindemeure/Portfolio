@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "unplugin-icons": "^0.14.3",
+    "unplugin-vue-components": "^0.19.3",
     "vue": "^3.2.25"
   },
   "devDependencies": {
