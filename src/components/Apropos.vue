@@ -1,9 +1,10 @@
 <template>
     <div class="container">
+        <a name="aboutPage"></a>
         <main class="about">
 
             <section class="section">
-                
+                <a name="aboutPage"></a>
                 <div class="header">
                     <h1 class="title"><span class="color">01.</span> A Propos de moi</h1>
                 </div>

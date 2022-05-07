@@ -2,7 +2,7 @@
     <div class="container">
         <main class="contact">
             <section class="section">
-
+                <a name="contactPage"></a>
                 <div class="header">
                     <h1 class="title"><span class="color">03.</span> Me contacter</h1>
                 </div>

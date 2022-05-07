@@ -2,7 +2,7 @@
     <div class="container">
         <main class="certification">
             <section class="section">
-
+                <a name="certificationPage"></a>
                 <div class="header">
                     <h1 class="title"><span class="color">03.</span> Les Formations que j'ai suivis</h1>
                 </div>

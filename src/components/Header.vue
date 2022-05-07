@@ -8,11 +8,11 @@
             </div>
 
             <div class="menu">
-                <router-link to="" class="menuItem"><span class="color">01.</span>A Propos</router-link>
-                <router-link to="" class="menuItem"><span class="color">02.</span>Créations</router-link>
-                <router-link to="" class="menuItem"><span class="color">03.</span>Formations</router-link>
-                <router-link to="" class="menuItem"><span class="color">04.</span>Contact</router-link>
-                <router-link to="" class="CV menuItem">Mon CV</router-link>
+                <a href="#aboutPage" class="menuItem"><span class="color">01.</span>A Propos</a>
+                <a href="#personalProjectsPage" class="menuItem"><span class="color">02.</span>Créations</a>
+                <a href="#certificationPage" class="menuItem"><span class="color">03.</span>Formations</a>
+                <a href="#contactPage" class="menuItem"><span class="color">04.</span>Contact</a>
+                <a href="#aboutPage" class="CV menuItem">Mon CV</a>
                 
             </div>
 
