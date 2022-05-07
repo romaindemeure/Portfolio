@@ -4,10 +4,11 @@
         <div class="left">
 
             <div class="divEmail">
-                <a href="https://www.linkedin.com/in/romain-demeure-a2a18b215/" class="leftEmail"><img class="svg" src="/src/assets/svg/linkedin.svg" alt=""></a>
-                <a href="https://github.com/romaindemeure" class="leftEmail"><img class="svg" src="/src/assets/svg/github.svg" alt=""></a>
-                <a href="https://www.instagram.com/romain.dme/?hl=fr" class="leftEmail"><img class="svg" src="/src/assets/svg/instagram.svg" alt=""></a>
-                <a href="https://www.facebook.com/profile.php?id=100010117632884" class="leftEmail"><img class="svg" src="/src/assets/svg/facebook.svg" alt=""></a>
+                
+                <a href="https://www.linkedin.com/in/romain-demeure-a2a18b215/" class="leftEmail"><LinkedinIcon class="icon"/></a>
+                <a href="https://github.com/romaindemeure" class="leftEmail"><GithubIcon class="icon"/></a>
+                <a href="https://www.instagram.com/romain.dme/?hl=fr" class="leftEmail"><InstagramIcon class="icon"/></a>
+                <a href="https://www.facebook.com/profile.php?id=100010117632884" class="leftEmail"><FacebookIcon class="icon"/></a>
             </div>
 
             <div class="whiteLine">
@@ -39,18 +40,6 @@
         z-index: 10;
     }
 
-    .svg {
-        fill: white;
-        height: 20px;
-        width: 20px;
-        margin: 10px 5px;
-        text-align: center;
-    }
-
-    .svg:hover {
-        color: red;
-    }
-
     .whiteLine {
         display: block;
         width: 1px;
@@ -60,6 +49,15 @@
         position: relative;
         left: -6px;
     }
+
+    .icon {
+        display: block;
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    .icon:hover {
+        color: #64FFDA;
+    }
 }
 
 
@@ -67,5 +65,8 @@
 </style>
 
 <script setup lang="ts">
-
+import GithubIcon from '~icons/ri/github-line'
+import LinkedinIcon from '~icons/ri/linkedin-line'
+import InstagramIcon from '~icons/ri/instagram-line'
+import FacebookIcon from '~icons/ri/facebook-line'
 </script>
