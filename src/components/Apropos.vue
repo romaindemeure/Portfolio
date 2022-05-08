@@ -5,16 +5,16 @@
 
             <section class="section">
                 <div class="header">
-                    <h1 class="title"><span class="color">01.</span> A Propos de moi</h1>
+                    <h1 class="title"><span class="color">01.</span> A propos de moi</h1>
                 </div>
         
 
                 <div class="text">
                     
                     <div class="aboutDivText">
-                        <p class="aboutText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iusto ducimus eum, aliquam voluptatibus rem. Fuga cupiditate consectetur atque, aut laboriosam asperiores quaerat quia consequatur omnis similique nulla suscipit tempore.</p>
-                        <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ducimus laboriosam eligendi voluptatem. Esse excepturi, ut, quidem labore aspernatur animi saepe aut cupiditate, cum quasi obcaecati! Quas sint temporibus sunt.</p>
-                        <p class="aboutText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus consequuntur animi nemo magni, unde in perspiciatis laboriosam ut eius !</p>
+                        <p class="aboutText">2015 - Je suis rentrée dans la programmation grace au jeu vidéo minecraft ou j'ai écrit mes premiers script en Java pour créer des mini-jeux et jouer avec mes amis.</p>
+                        <p class="aboutText">2018 - Je découvre une faille sur un jeu McDonald's que j'exploite avec du JavaScript ce qui me permet de manger gratuitement et légalement. Je découvre donc réellement la puissance de la programmation.</p>
+                        <p class="aboutText">2020 - Je décide de me lancer réellement dans la programmation, d'investir dans des formations et de mettre en oeuvre mes idées. Je commence à avoir de plus en plus de compétences, j'aimerais donc en faire mon métier.</p>
                     </div>
                     
                     <div class="aboutPicture">

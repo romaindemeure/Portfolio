@@ -4,7 +4,7 @@
             <section class="section">
                 <a name="personalProjectsPage"></a>
                 <div class="header">
-                    <h1 class="title"><span class="color">02.</span>  Mes Créations</h1>
+                    <h1 class="title"><span class="color">02.</span>  Mes créations</h1>
                 </div>
 
                 <div class="mainLeft">

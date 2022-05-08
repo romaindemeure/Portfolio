@@ -11,7 +11,7 @@ import Certifications from './components/Certifications.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import LinkBottom from './components/LinkBottom.vue'
-
+import BaselineSchool from '~icons/ic/baseline-school'
 </script>
 
 <template>
@@ -27,9 +27,7 @@ import LinkBottom from './components/LinkBottom.vue'
 </template>
 
 <style>
-* {
-  box-sizing: border-box;
-}
+
 html {
   font-size: 14px;
 }

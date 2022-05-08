@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="box boxText">
-                    <p class="text description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, repellendus aspernatur. Dicta explicabo error quaerat? Facere omnis, excepturi hic molestiae aperiam laborum doloremque quo eveniet eligendi amet officia neque illo.</p>
+                    <p class="text description">Passionnée par le développement informatique depuis que j'ai 15 ans, je travaille principalement avec Javascript et Python. J'aime découvrir de nouvelles technologies, les apprendre et créer des projets. <span class="color">Je suis actuellement à la recherche d'une alternance.</span></p>
                 </div>
 
                 <div class="box boxButton">
@@ -80,6 +80,10 @@
     background-color: #64FFDA;
     color: #0A192F;
     transition: color, background-color 0.5s;
+}
+
+.color {
+    color: #64FFDA;
 }
 
 @media only screen and (min-width: 900px) {
