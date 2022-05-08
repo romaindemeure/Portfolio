@@ -108,22 +108,22 @@
         color: #64FFDA;
 }
 .container .section .mainLeft .right .divList .list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        list-style: none;
-        padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 20px 0;
 }
 .container .section .mainLeft .right .divList .list .listElement {
     margin-right: 10px;
 }
 
 .container .section .mainRight .left .divList .list {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        list-style: none;
-        padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 20px 0;
 }
 .container .section .mainRight .left .divList .list .listElement {
     margin-right: 10px;
@@ -134,7 +134,7 @@
         display: block;
         max-width: 1100px;
         margin: 400px auto;
-        padding: 0 100px;
+        padding: 0 50px;
     }
 
     .container .section {

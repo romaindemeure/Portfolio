@@ -84,7 +84,6 @@
     .container {
         max-width: 1100px;
         margin: 200px auto;
-        padding: 0 100px;
     }
 
     .container .contact {

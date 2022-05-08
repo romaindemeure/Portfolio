@@ -10,14 +10,14 @@ import PersonalProjects from './components/PersonalProjects.vue'
 import Certifications from './components/Certifications.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
+import LinkBottom from './components/LinkBottom.vue'
 
 </script>
 
 <template>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Inter&display=swap" rel="stylesheet">
   <Header/>
-  <EmailRight/>
-  <Linkleft/>
+  <LinkBottom/>
   <Main/>
   <Apropos/>
   <PersonalProjects/>
@@ -27,6 +27,9 @@ import Footer from './components/Footer.vue'
 </template>
 
 <style>
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 14px;
 }
