@@ -10,7 +10,7 @@
                 <div class="mainLeft">
 
                     <div class="left">
-                        <img class="img" src="/images/RestaurantProject.PNG" alt="">
+                        <img class="img" src="/images/RestaurantProject.png" alt="">
                     </div>
 
                     <div class="right">
@@ -49,7 +49,7 @@
                 <div class="mainRight">
 
                     <div class="right">
-                        <img class="img" src="/images/BackendBlogProject.PNG" alt="">
+                        <img class="img" src="/images/BackendBlogProject.png" alt="">
                     </div>
 
                     <div class="left">
