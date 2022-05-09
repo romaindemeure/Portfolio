@@ -5,7 +5,7 @@
 
             <section class="section">
                 <div class="header">
-                    <h1 class="title"><span class="color">01.</span> A propos de moi</h1>
+                    <h1 class="title"><span class="color">01.</span> À propos de moi</h1>
                 </div>
         
 

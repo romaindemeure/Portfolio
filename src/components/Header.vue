@@ -8,7 +8,7 @@
             </div>
 
             <div class="menu">
-                <a href="#aboutPage" class="menuItem"><span class="color">01.</span>A Propos</a>
+                <a href="#aboutPage" class="menuItem"><span class="color">01.</span>À Propos</a>
                 <a href="#personalProjectsPage" class="menuItem"><span class="color">02.</span>Créations</a>
                 <a href="#certificationPage" class="menuItem"><span class="color">03.</span>Formations</a>
                 <a href="#contactPage" class="menuItem"><span class="color">04.</span>Contact</a>
