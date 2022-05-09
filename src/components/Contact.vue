@@ -80,6 +80,10 @@
     font-weight: 600;
 }
 
+.text {
+    color: #CCD6F6;
+}
+
 @media only screen and (min-width: 900px)  {
 
     .container {

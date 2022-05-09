@@ -52,7 +52,7 @@
 }
 
 .container .about .aboutDivText .aboutText {
-    color: #8892B0;
+    color: #CCD6F6;
 }
 .container .about .section .aboutPicture {
     text-align: center;

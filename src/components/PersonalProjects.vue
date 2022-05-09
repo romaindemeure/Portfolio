@@ -135,6 +135,9 @@
 .container .section .mainRight .left .divList .list .listElement {
     margin-right: 10px;
 }
+.text {
+    color: #CCD6F6;
+}
 
 @media only screen and (min-width: 1150px)  {
     .container {
