@@ -100,6 +100,13 @@
     padding: 15px;
     border-radius: 5px;
 }
+.container .section .mainLeft .left .img {
+    border-radius: 5px;
+}
+
+.container .section .mainRight .right .img {
+    border-radius: 5px;
+}
 
 .container .section .mainLeft .right .divPresentation .presentation {
     color: #64FFDA;
@@ -160,9 +167,6 @@
     .container .section .mainLeft .left {
         position: absolute;
         left: 0;
-    }
-    .container .section .mainLeft .left .img {
-        border-radius: 5px;
     }
 
     .container .section .mainLeft .right {
