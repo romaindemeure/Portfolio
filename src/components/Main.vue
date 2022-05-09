@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <main class="main">
+        <div class="main">
 
             <section>
                 <div class="box">
@@ -24,7 +24,7 @@
                 </div>
             </section>
 
-        </main>
+        </div>
     </div>
 </template>
 

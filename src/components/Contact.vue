@@ -1,32 +1,33 @@
 <template>
-<a name="contactPage"></a>
-    <div class="container">
-        <main class="contact">
-            <section class="section">
+    <a name="contactPage">
+        <div class="container">
+            <div class="contact">
+                <section class="section">
 
-                <div class="header">
-                    <h1 class="title"><span class="color">04.</span> Me contacter</h1>
-                </div>
-
-                <div class="main">
-                    <div class="divTitle">
-                        <h1 class="title">Prendre contact avec moi</h1>
+                    <div class="header">
+                        <h1 class="title"><span class="color">04.</span> Me contacter</h1>
                     </div>
 
-                    <div class="divText">
-                        <p class="text">Étant admis a l'école CESI de Brest, <span class="color">je suis actuellement à la recherche d'une alternance dans le développement en Bretagne.</span>  Ayant tout appris en autodidacte, je touche un peu à tout (back, front). J'aimerais aujourd'hui approfondir mes compétences en développement grâce à une immersion en entreprise. Si mon profil vous intéresse, vous avez une question ou que vous souhaitez simplement me saluer, je vous répondrais avec plaisir.</p>
+                    <div class="main">
+                        <div class="divTitle">
+                            <h1 class="title">Prendre contact avec moi</h1>
+                        </div>
+
+                        <div class="divText">
+                            <p class="text">Étant admis a l'école CESI de Brest, <span class="color">je suis actuellement à la recherche d'une alternance dans le développement en Bretagne.</span>  Ayant tout appris en autodidacte, je touche un peu à tout (back, front). J'aimerais aujourd'hui approfondir mes compétences en développement grâce à une immersion en entreprise. Si mon profil vous intéresse, vous avez une question ou que vous souhaitez simplement me saluer, je vous répondrais avec plaisir.</p>
+                        </div>
+
+                        <div class="divButton">
+                            <a href="mailto:demeureromain4@gmail.com" class="button">Envoyer un message</a>
+                        </div>
+
                     </div>
 
-                    <div class="divButton">
-                        <a href="mailto:demeureromain4@gmail.com" class="button">Envoyer un message</a>
-                    </div>
 
-                </div>
-
-
-            </section>
-        </main>
-    </div>
+                </section>
+            </div>
+        </div>
+    </a>
 </template>
 
 <style scoped>

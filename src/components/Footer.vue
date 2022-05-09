@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <main class="footer">
+        <div class="footer">
             <section class="section">
 
                 <div class="main">
@@ -8,7 +8,7 @@
                 </div>
 
             </section>
-        </main>
+        </div>
     </div>
 </template>
 

@@ -30,6 +30,7 @@ import BaselineSchool from '~icons/ic/baseline-school'
 
 html {
   font-size: 14px;
+  scroll-behavior: smooth;
 }
 
 body {

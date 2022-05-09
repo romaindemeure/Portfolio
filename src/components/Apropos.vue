@@ -1,5 +1,5 @@
 <template>
-    <a name="aboutPage"></a>
+    <a name="aboutPage">
     <div class="container">
         <main class="about">
 
@@ -30,6 +30,7 @@
         </main>
 
     </div>
+    </a>
 </template>
 
 <style scoped>

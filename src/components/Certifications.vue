@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-        <main class="certification">
+        <div class="certification">
+
             <section class="section">
                 <a name="certificationPage"></a>
                 <div class="header">
@@ -110,7 +111,8 @@
 
                 </div>
             </section>
-        </main>
+
+        </div>
     </div>
 </template>
 

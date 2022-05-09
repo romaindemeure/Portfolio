@@ -30,7 +30,9 @@
 .container .topbar {
     padding: 20px 0;
     font-size: 14px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container .topbar .logo {
@@ -40,7 +42,12 @@
 .container .topbar .divCV {
     margin-top: 30px;
 }
-
+.container .topbar .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
 .container .topbar .menu .menuItem {
     display: inline-block;
     margin: 0 15px;
@@ -89,6 +96,9 @@
     }
     .container .topbar .logo {
         margin-bottom: 0;
+    }
+    .container .topbar .menu {
+        display: block;
     }
 
     .container .topbar .logo .navLogo {
