@@ -36,6 +36,7 @@
     justify-content: center;
 }
 .container .certification .section .header {
+    font-size: 16px;
     margin-bottom: 40px;
 }
 

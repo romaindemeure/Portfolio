@@ -38,6 +38,7 @@
 .container {
     margin: 200px 20px;
 }
+
 .container .main {
     display: flex;
     flex-direction: column;
@@ -47,6 +48,7 @@
 .container .about .title {
     color: #fff;
 }
+
 .container .about .title .color {
     color: #64FFDA;
 }
@@ -54,9 +56,16 @@
 .container .about .aboutDivText .aboutText {
     color: #CCD6F6;
 }
+
 .container .about .section .aboutPicture {
     text-align: center;
 }
+
+.container .about .section .header {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
 .container .about .section .aboutPicture .me {
     margin-top: 40px;
     border-radius: 5px;
@@ -68,6 +77,7 @@
     color: #64FFDA;
     font-weight: 400;
 }
+
 @media only screen and (min-width: 900px) {
 
     .container {

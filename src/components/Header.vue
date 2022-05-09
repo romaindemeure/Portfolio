@@ -17,7 +17,7 @@
             </div>
 
             <div class="divCV">
-                <router-link to="" class="menuItem CV">Mon CV</router-link>
+                <a href=""  class="menuItem CV">Mon CV</a>
             </div>
 
         </nav>
@@ -111,7 +111,6 @@
     .container .topbar .menu .menuItem {
         padding: 0 10px;
         font-family: 'Fira code';
-        font-weight: 500;
         color: white;
     }
 

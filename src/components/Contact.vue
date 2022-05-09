@@ -36,6 +36,11 @@
     margin: 200px 20px;
 }
 
+.container .contact .section .header {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
 .container .contact .section .header .title .color {
     color: #64FFDA;
     font-weight: 400;

@@ -93,13 +93,21 @@
 .container {
     margin: 200px 20px;
 }
+
+.container .section .header {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
 .container .section .header .title .color {
     color: #64FFDA;
     font-weight: 400;
 }
+
 .container .section .mainLeft {
     margin-bottom: 100px;
 }
+
 .container .section .mainLeft .right .divText {
     background: #112240;
     padding: 15px;
@@ -111,6 +119,7 @@
     padding: 15px;
     border-radius: 5px;
 }
+
 .container .section .mainLeft .left .img {
     border-radius: 5px;
 }
@@ -123,16 +132,20 @@
     color: #64FFDA;
     font-weight: 400;
 }
+
 .container .section .mainRight .left .divPresentation .presentation {
     color: #64FFDA;
     font-weight: 400;
 }
+
 .container .section .mainLeft .right .divList .list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
+    padding: 0;
 }
+
 .container .section .mainLeft .right .divList .list .listElement {
     margin-right: 10px;
 }
@@ -142,11 +155,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
-    padding: 20px 0;
+    padding: 0;
 }
+
 .container .section .mainRight .left .divList .list .listElement {
     margin-right: 10px;
 }
+
 .text {
     color: #CCD6F6;
 }
