@@ -78,8 +78,10 @@ ul.right li:first-of-type a:hover, .icon:hover {
 </style>
 
 <script setup lang="ts">
+
 import GithubIcon from '~icons/ri/github-line'
 import LinkedinIcon from '~icons/ri/linkedin-line'
 import InstagramIcon from '~icons/ri/instagram-line'
 import FacebookIcon from '~icons/ri/facebook-line'
+
 </script>
