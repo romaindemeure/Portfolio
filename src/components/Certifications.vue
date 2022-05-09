@@ -41,6 +41,7 @@
 
 .container .certification .section .header .title .color {
     color: #64FFDA;
+    font-weight: 400;
 }
 
 .container .certification .section .main .box {

@@ -66,6 +66,7 @@
 
 .color {
     color: #64FFDA;
+    font-weight: 400;
 }
 @media only screen and (min-width: 900px) {
 

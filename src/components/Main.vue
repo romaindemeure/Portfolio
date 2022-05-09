@@ -48,6 +48,7 @@
 .container .main .box .myNameIs {
     color: #64FFDA;
     font-size: 14px;
+    font-weight: 400;
 }
 
 .container .main .box .me {

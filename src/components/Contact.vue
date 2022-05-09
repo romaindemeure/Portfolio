@@ -38,6 +38,7 @@
 
 .container .contact .section .header .title .color {
     color: #64FFDA;
+    font-weight: 400;
 }
 
 .container .contact .section .main .divTitle {
@@ -77,11 +78,11 @@
 
 .container .contact .section .main .divText .text .color {
     color: #64FFDA;
-    font-weight: 600;
 }
 
 .text {
     color: #CCD6F6;
+    line-height: 2em;
 }
 
 @media only screen and (min-width: 900px)  {

@@ -10,7 +10,7 @@
                 <div class="mainLeft">
 
                     <div class="left">
-                        <img class="img" src="https://via.placeholder.com/600x300" alt="">
+                        <img class="img" src="src/assets/RestaurantProject.PNG" alt="">
                     </div>
 
                     <div class="right">
@@ -37,6 +37,11 @@
                             </ul>
 
                         </div>
+
+                        <div class="divIconLink">
+                            <a href="" target="_blank"><ExternalLinkLine class="icon"/></a>
+                            <a href="https://github.com/romaindemeure/restaurantWithVue3-Ts" target="_blank"><GithubIcon class="icon"/></a>
+                        </div>
                         
                     </div>
                 </div>
@@ -44,7 +49,7 @@
                 <div class="mainRight">
 
                     <div class="right">
-                        <img class="img" src="https://via.placeholder.com/600x300" alt="">
+                        <img class="img" src="src/assets/BackendBlogProject.PNG" alt="">
                     </div>
 
                     <div class="left">
@@ -71,6 +76,11 @@
                             </ul>
 
                         </div>
+
+                        <div class="divIconLink">
+                            <a href="" target="_blank"><ExternalLinkLine class="icon"/></a>
+                            <a href="https://github.com/romaindemeure/django-blog" target="_blank"><GithubIcon class="icon"/></a>
+                        </div>
                         
                     </div>
                 </div>
@@ -85,6 +95,7 @@
 }
 .container .section .header .title .color {
     color: #64FFDA;
+    font-weight: 400;
 }
 .container .section .mainLeft {
     margin-bottom: 100px;
@@ -110,16 +121,17 @@
 
 .container .section .mainLeft .right .divPresentation .presentation {
     color: #64FFDA;
+    font-weight: 400;
 }
 .container .section .mainRight .left .divPresentation .presentation {
-        color: #64FFDA;
+    color: #64FFDA;
+    font-weight: 400;
 }
 .container .section .mainLeft .right .divList .list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
-    padding: 20px 0;
 }
 .container .section .mainLeft .right .divList .list .listElement {
     margin-right: 10px;
@@ -137,6 +149,16 @@
 }
 .text {
     color: #CCD6F6;
+}
+
+.icon {
+    font-size: 18px;
+    margin: 0 8px;
+}
+
+.icon:hover {
+    color: #64FFDA;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 1150px)  {
@@ -248,5 +270,6 @@
 </style>
 
 <script setup lang="ts">
-
+import ExternalLinkLine from '~icons/ri/external-link-line'
+import GithubIcon from '~icons/ri/github-line'
 </script>
