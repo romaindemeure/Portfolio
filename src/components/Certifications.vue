@@ -10,102 +10,12 @@
 
                 <div class="main">
 
-                    <div class="box">
+                    <div class="box" v-for="certification in certifications">
                         <div>
-                            <p class="textCertification">La Formation Complète Python - <span class="color">42 Heures</span> - Thibault Houdon</p>
+                            <p class="textCertification" >{{ certification.title }} - <span class="color">{{ certification.hours }}</span> - {{ certification.trainer }}</p>
                         </div>
                         <div>
-                            <a href="https://www.udemy.com/course/formation-complete-python/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">JavaScript: la formation ULTIME - <span class="color">15 Heures</span> - Louis Nicolas Leuillet</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/javascript-la-formation-ultime/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">Développez des sites web professionnels avec Vue.js 3 - <span class="color">15 Heures</span> - DevTheory</p>
-                        </div>
-                        <div>
-                            <a href="https://vue.devtheory.fr/?utm_source=header-devtheory-website&utm_medium=devtheory-website" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">Git & GitHub: la formation ULTIME - <span class="color">3 Heures</span> - Louis Nicolas Leuillet</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/git-github-la-formation-ultime/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">La Formation Complète Django - <span class="color">15 Heures</span> - Thibault Houdon</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/creez-des-sites-web-avec-python-et-django/?src=sac&kw=La+Formation+Compl%C3%A8te+Django" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">Python avancé: aller plus loin - <span class="color">3.5 Heures</span> - Thibault Houdon</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/cours-python-avance/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">Python par la pratique: 101 Exercices Corrigés - <span class="color">101 Exercices</span> - Thibault Houdon</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/python-exercices/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">30 Exercices Orientés Objets avec Python - <span class="color">30 Exercices</span> - Thibault Houdon</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/30-exercices-orientes-objets-avec-python/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">Mettez votre site internet en ligne - <span class="color">1.5 Heures</span> - Louis Nicolas Leuillet</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/mettez-votre-site-internet-en-ligne/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">Hacking Éthique: Ingénierie Social - <span class="color">5.5 Heures</span> - Michel Kartner</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/hacking-ethique-ingenierie-sociale/" target="_blank"><ExternalLinkLine class="svg"/></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div>
-                            <p class="textCertification">UX & Web Design: les fondamentaux - <span class="color">3.5 Heures</span> - Axel Paris Adobe XD</p>
-                        </div>
-                        <div>
-                            <a href="https://www.udemy.com/course/ux-web-design/" target="_blank"><ExternalLinkLine class="svg"/></a>
+                            <a :href="certification.link" target="_blank"><ExternalLinkLine class="svg"/></a>
                         </div>
                     </div>
 
@@ -184,7 +94,87 @@
 
 </style>
 
-<script setup lang="ts">
+<script lang="ts">
 import ExternalLinkLine from '~icons/ri/external-link-line'
 
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  data() {
+    return {
+        certifications: [
+            {
+                title: "La Formation Complète Python",
+                hours: "42 heures",
+                trainer: "Thibault Houdon",
+                link: "https://www.udemy.com/course/formation-complete-python/",
+            }, 
+            {
+                title: "JavaScript: la formation ULTIME",
+                hours: "15 Heures",
+                trainer: "Louis Nicolas Leuillet",
+                link: "https://www.udemy.com/course/javascript-la-formation-ultime/",
+            },
+            {
+                title: "Développez des sites web professionnels avec Vue.js 3",
+                hours: "15 Heures",
+                trainer: "DevTheory",
+                link: "https://vue.devtheory.fr/?utm_source=header-devtheory-website&utm_medium=devtheory-website",
+            },
+            {
+                title: "Git & GitHub: la formation ULTIME",
+                hours: "3 Heures",
+                trainer: "Louis Nicolas Leuillet",
+                link: "https://www.udemy.com/course/git-github-la-formation-ultime/",
+            },
+            {
+                title: "La Formation Complète Django",
+                hours: "15 Heures",
+                trainer: "Thibault Houdon",
+                link: "https://www.udemy.com/course/creez-des-sites-web-avec-python-et-django/?src=sac&kw=La+Formation+Compl%C3%A8te+Django",
+            },
+            {
+                title: "Python avancé: aller plus loin",
+                hours: "3.5 Heures",
+                trainer: "Thibault Houdon",
+                link: "https://www.udemy.com/course/cours-python-avance/",
+            },
+            {
+                title: "Python par la pratique: 101 Exercices Corrigés",
+                hours: "101 Exercices",
+                trainer: "Thibault Houdon",
+                link: "https://www.udemy.com/course/python-exercices/",
+            },
+            {
+                title: "30 Exercices Orientés Objets avec Python",
+                hours: "30 Exercices",
+                trainer: "Thibault Houdon",
+                link: "https://www.udemy.com/course/30-exercices-orientes-objets-avec-python/",
+            },
+            {
+                title: "Mettez votre site internet en ligne",
+                hours: "1.5 Heures",
+                trainer: "Louis Nicolas Leuillet",
+                link: "https://www.udemy.com/course/mettez-votre-site-internet-en-ligne/",
+            },
+            {
+                title: "Hacking Éthique: Ingénierie Social",
+                hours: "5.5 Heures",
+                trainer: "Michel Kartner",
+                link: "https://www.udemy.com/course/hacking-ethique-ingenierie-sociale/",
+            },
+            {
+                title: "UX & Web Design: les fondamentaux",
+                hours: "3.5 Heures",
+                trainer: "Axel Paris Adobe XD",
+                link: "https://www.udemy.com/course/ux-web-design/",
+            },
+        ]
+      
+    }
+  },
+  components: {
+      ExternalLinkLine
+  }
+})
 </script>
