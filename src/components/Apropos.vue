@@ -69,8 +69,8 @@
 .container .about .section .aboutPicture .me {
     margin-top: 40px;
     border-radius: 5px;
-    height: 400px;
-    width: auto;
+    width: 400px;
+    height: auto;
 }
 
 .color {
