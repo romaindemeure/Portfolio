@@ -20,11 +20,11 @@
                         </div>
 
                         <div class="divProjectName">
-                            <h2 class="projectName">Création d'un Restaurant Vue.Js3</h2>
+                            <h2 class="projectName">Création d'un Restaurant Vue 3</h2>
                         </div>
                         
                         <div class="divText">
-                            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quibusdam, debitis deleniti voluptatum cumque tenetur minus quaerat qui, molestias non facere expedita explicabo tempora placeat suscipit dignissimos quos iure inventore.</p>
+                            <p class="text">J'ai développé ce site web dans le but de me perfectionner en CSS avec les vidéos de grafikart tout en réalisant un projet concret et utile. J'ai choisis comme technologie le framework Vue3 qui m'a paru être le plus adapté et notamment pour son organisation.</p>
                         </div>
 
                         <div class="divList">
@@ -33,7 +33,7 @@
                                 <li class="listElement">HTML</li>
                                 <li class="listElement">Css</li>
                                 <li class="listElement">Javascript/Typescript</li>
-                                <li class="listElement">Vue.Js3</li>
+                                <li class="listElement">Vue3</li>
                             </ul>
 
                         </div>
@@ -63,7 +63,7 @@
                         </div>
                         
                         <div class="divText">
-                            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quibusdam, debitis deleniti voluptatum cumque tenetur minus quaerat qui, molestias non facere expedita explicabo tempora placeat suscipit dignissimos quos iure inventore.</p>
+                            <p class="text">Pour la création de ce Blog je me suis challengé avec le framework Python/Django afin de me l'approrier à l'aide de la formation de Thibault HOUDON sur la plateforme Udemy. Ce blog a été développé avec Django : il contient une gestion d'utilisateur mais aussi des appels API avec django-rest-framework permettant la retransmission des mes données.</p>
                         </div>
 
                         <div class="divList">

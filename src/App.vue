@@ -13,7 +13,6 @@ import Footer from './components/Footer.vue'
 import LinkBottom from './components/LinkBottom.vue'
 
 import BaselineSchool from '~icons/ic/baseline-school'
-
 </script>
 
 <template>

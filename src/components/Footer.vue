@@ -4,7 +4,7 @@
             <section class="section">
 
                 <div class="main">
-                    <h1 class="text">Inspired by Brittany Chiang and created by Romain Demeure in Vue.Js3</h1>
+                    <h1 class="text">Inspired by Brittany Chiang and created by Romain Demeure in Vue 3</h1>
                 </div>
 
             </section>
