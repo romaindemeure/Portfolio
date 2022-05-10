@@ -118,7 +118,7 @@ export default defineComponent({
                 link: "https://www.udemy.com/course/javascript-la-formation-ultime/",
             },
             {
-                title: "Développez des sites web professionnels avec Vue.js 3",
+                title: "Développez des sites web professionnels avec Vue3",
                 hours: "15 Heures",
                 trainer: "DevTheory",
                 link: "https://vue.devtheory.fr/?utm_source=header-devtheory-website&utm_medium=devtheory-website",
