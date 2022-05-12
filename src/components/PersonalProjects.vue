@@ -32,14 +32,14 @@
                             <ul class="list">
                                 <li class="listElement">HTML</li>
                                 <li class="listElement">CSS</li>
-                                <li class="listElement">Javascript/Typescript</li>
+                                <li class="listElement">Javascript</li>
                                 <li class="listElement">Vue3</li>
                             </ul>
 
                         </div>
 
                         <div class="divIconLink">
-                            <a href="" target="_blank"><ExternalLinkLine class="icon"/></a>
+                            <a href="https://restaurant-test.demeureromain.fr/" target="_blank"><ExternalLinkLine class="icon"/></a>
                             <a href="https://github.com/romaindemeure/restaurantWithVue3-Ts" target="_blank"><GithubIcon class="icon"/></a>
                         </div>
                         
@@ -78,7 +78,7 @@
                         </div>
 
                         <div class="divIconLink">
-                            <a href="" target="_blank"><ExternalLinkLine class="icon"/></a>
+                            <!-- <a href="" target="_blank"><ExternalLinkLine class="icon"/></a> -->
                             <a href="https://github.com/romaindemeure/django-blog" target="_blank"><GithubIcon class="icon"/></a>
                         </div>
                         
