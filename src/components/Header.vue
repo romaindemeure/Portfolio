@@ -12,7 +12,7 @@
                 <a href="#personalProjectsPage" class="menuItem"><span class="color">02.</span>Créations</a>
                 <a href="#certificationPage" class="menuItem"><span class="color">03.</span>Formations</a>
                 <a href="#contactPage" class="menuItem"><span class="color">04.</span>Contact</a>
-                <a href="https://www.dropbox.com/s/puol9uhb26urj0u/Cv%20demeure%20romain.pdf?dl=1" class="CV menuItem">Mon CV</a>
+                <a href="https://www.dropbox.com/s/puol9uhb26urj0u/Cv%20demeure%20romain.pdf?raw=1" class="CV menuItem">Mon CV</a>
                 
             </div>
 
