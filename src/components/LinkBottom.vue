@@ -2,7 +2,7 @@
     <div class="container">
 
             <ul class="bottom-container left">
-                <li><a href="https://www.linkedin.com/in/romain-demeure-a2a18b215/"  target="_blank"><LinkedinIcon class="icon"/></a></li>
+                <li><a href="https://www.linkedin.com/in/romain-demeure/"  target="_blank"><LinkedinIcon class="icon"/></a></li>
                 <li><a href="https://github.com/romaindemeure"  target="_blank"><GithubIcon class="icon"/></a></li>
                 <li><a href="https://www.instagram.com/romain.dme/?hl=fr"  target="_blank"><InstagramIcon class="icon"/></a></li>
                 <li><a href="https://www.facebook.com/profile.php?id=100010117632884"  target="_blank"><FacebookIcon class="icon"/></a></li>
