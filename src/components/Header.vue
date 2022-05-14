@@ -4,7 +4,7 @@
         <nav class="topbar">
 
             <div class="logo">
-                <a href="" class="navLogo">Logo</a>
+                <a href="" class="navLogo"><IconLogo class="icons"/></a>
             </div>
 
             <div class="menu">
@@ -47,7 +47,11 @@
     flex-direction: column;
     align-items: center;
 }
-    
+.container .topbar .icons {
+    font-size: 35px;
+    color: #64FFDA;
+}
+
 .container .topbar .menu .menuItem {
     display: inline-block;
     margin: 0 15px;
@@ -143,5 +147,5 @@
 </style>
 
 <script setup lang="ts">
-
+import IconLogo from '~icons/my-logo/settings'
 </script>
