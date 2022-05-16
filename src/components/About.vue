@@ -100,6 +100,8 @@
     .container .about .aboutDivText {
         width: 50%;
         margin-top: 50px;
+        display: flex;
+        flex-direction: column;
     }
     .container .about .aboutPicture {
         width: 50%;
