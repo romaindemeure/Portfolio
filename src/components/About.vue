@@ -85,14 +85,17 @@
         margin: 0 auto;
         padding: 200px 100px;
     }
+
     .container .about .text {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
+
     .container .about .section .header {
         margin-bottom: 40px;
     }
+
     .container .about .section .title {
         font-size: 25px;
     } 
@@ -103,18 +106,19 @@
         display: flex;
         flex-direction: column;
     }
+
     .container .about .aboutPicture {
         width: 50%;
         text-align: center;
         margin: 20px 0;
     }
+
     .container .about .section .aboutPicture .me {
         border-radius: 5px;
         height: 350px;
         margin-top: 0;
         width: auto;
     }
-
 }
 
 
