@@ -12,7 +12,7 @@
                 <div class="text">
                     
                     <div class="aboutDivText">
-                        <p class="aboutText"><span class="color">2015</span> - Je suis rentré dans la programmation grace au jeu vidéo Minecraft ou j'ai écrit mes premiers script en Java pour créer des mini-jeux et jouer avec mes amis.</p>
+                        <p class="aboutText"><span class="color">2015</span> - Je suis rentré dans la programmation grace au jeu vidéo Minecraft ou j'ai écrit mes premiers scripts en Java pour créer des mini-jeux et jouer avec mes amis.</p>
                         <p class="aboutText"><span class="color">2017</span> - Je découvre JavaScript avec lequel je créé des petits jeux web, ce qui m’a permis de découvrir la puissance de la programmation.</p>
                         <p class="aboutText"><span class="color">2021</span> - Je décide de me lancer réellement dans la programmation, d'investir dans des formations et de mettre en oeuvre mes idées. Je commence à avoir de plus en plus de compétences, j'aimerais donc en faire mon métier.</p>
                     </div>

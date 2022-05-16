@@ -12,11 +12,11 @@
                 </div>
 
                 <div class="box">
-                    <h3 class="text iBuild">Je créer des choses sur le web</h3>
+                    <h3 class="text iBuild">Je crée des choses sur le web</h3>
                 </div>
 
                 <div class="box boxText">
-                    <p class="text description">Passionnée par le développement informatique depuis que j'ai 15 ans, je travaille principalement avec Javascript et Python. J'aime découvrir de nouvelles technologies, les apprendre et créer des projets. <span class="color">Je suis actuellement à la recherche d'une alternance.</span></p>
+                    <p class="text description">Passionné par le développement informatique depuis que j'ai 15 ans, je travaille principalement avec Javascript et Python. J'aime découvrir de nouvelles technologies, les apprendre et créer des projets. <span class="color">Je suis actuellement à la recherche d'une alternance.</span></p>
                 </div>
 
                 <div class="box boxButton">
