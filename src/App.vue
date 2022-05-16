@@ -5,7 +5,7 @@ import Header from './components/Header.vue'
 import EmailRight from './components/EmailRight.vue'
 import Linkleft from './components/LinkLeft.vue'
 import Main from './components/Main.vue'
-import Apropos from './components/Apropos.vue'
+import About from './components/About.vue'
 import PersonalProjects from './components/PersonalProjects.vue'
 import Certifications from './components/Certifications.vue'
 import Contact from './components/Contact.vue'
@@ -20,7 +20,7 @@ import BaselineSchool from '~icons/ic/baseline-school'
   <Header/>
   <LinkBottom/>
   <Main/>
-  <Apropos/>
+  <About/>
   <PersonalProjects/>
   <Certifications/>
   <Contact/>
