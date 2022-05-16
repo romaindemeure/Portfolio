@@ -93,6 +93,7 @@
         max-width: 1100px;
         margin: 0 auto;
         padding: 200px 100px;
+        height: 100vh;
     }
 
     /* Reset de nos padding et margin  */
