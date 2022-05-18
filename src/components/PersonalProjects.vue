@@ -176,12 +176,12 @@
     cursor: pointer;
 }
 
-@media only screen and (min-width: 1150px)  {
+@media only screen and (min-width: 1000px)  {
     .container {
         display: block;
         max-width: 1100px;
         margin: 400px auto;
-        padding: 0 50px;
+        padding: 200px 100px;
     }
 
     .container .section {
