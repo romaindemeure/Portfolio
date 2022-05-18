@@ -94,6 +94,7 @@
     .container {
         max-width: 1100px;
         margin: 200px auto;
+        padding: 200px 100px;
     }
 
     .container .contact {
@@ -118,7 +119,7 @@
     }
 
     .container .contact .section .main .divText {
-        margin: 50px 200px;
+        margin: 50px 150px;
     }
 
     .container .contact .section .main .divText .text {
