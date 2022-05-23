@@ -39,7 +39,7 @@
                         </div>
 
                         <div class="divIconLink">
-                            <a href="https://restaurant-test.demeureromain.fr/" target="_blank"><ExternalLinkLine class="icon"/></a>
+                            <a href="https://restaurant.demeureromain.fr" target="_blank"><ExternalLinkLine class="icon"/></a>
                             <a href="https://github.com/romaindemeure/restaurant" target="_blank"><GithubIcon class="icon"/></a>
                         </div>
                         
