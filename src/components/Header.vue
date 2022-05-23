@@ -17,7 +17,7 @@
             </div>
 
             <div class="divCV">
-                <a href=""  class="menuItem CV">Mon CV</a>
+                <a target="_blank" href="https://www.dropbox.com/s/puol9uhb26urj0u/Cv%20demeure%20romain.pdf?raw=1" class="menuItem CV">Mon CV</a>
             </div>
 
         </nav>
