@@ -181,7 +181,7 @@
         display: block;
         max-width: 1100px;
         margin: 400px auto;
-        padding: 200px 100px;
+        padding: 50px 0;
     }
 
     .container .section {

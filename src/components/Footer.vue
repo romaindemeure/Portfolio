@@ -35,7 +35,7 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 100px;
-    margin-top: 400px;
+    margin-top: 250px;
 }
 
 .container .footer .section .main .text {

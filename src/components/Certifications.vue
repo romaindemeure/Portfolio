@@ -75,7 +75,7 @@
     .container {
         max-width: 1100px;
         margin: 0 auto;
-        padding: 200px 100px;
+        padding: 50px 0;
     }
 
     .container .certification {
