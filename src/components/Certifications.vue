@@ -194,7 +194,7 @@ export default defineComponent({
   },
   components: {
       ExternalLinkLine,
-      ExternalLinkCertification
+      ExternalLinkCertification,
   }
 })
 </script>
