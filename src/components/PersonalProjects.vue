@@ -10,7 +10,7 @@
                 <div class="mainLeft">
 
                     <div class="left">
-                        <a href="https://restaurant.demeureromain.fr/"><img class="img" src="/images/RestaurantProject.png" alt=""></a>
+                        <a href="https://restaurant.demeureromain.fr/" target="_blank"><img class="img" src="/images/RestaurantProject.png" alt=""></a>
                     </div>
 
                     <div class="right">
@@ -49,7 +49,7 @@
                 <div class="mainRight">
 
                     <div class="right">
-                        <a href=""><img class="img" src="/images/BackendBlogProject.png" alt=""></a>
+                        <img class="img" src="/images/BackendBlogProject.png" alt="">
                     </div>
 
                     <div class="left">
