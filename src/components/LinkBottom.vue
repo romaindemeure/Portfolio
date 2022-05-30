@@ -9,7 +9,7 @@
             </ul>
 
             <ul class="bottom-container right">
-                <li><a href="#">demeureromain4@gmail.com</a></li>
+                <li><a href="mailto:demeureromain4@gmail.com">demeureromain4@gmail.com</a></li>
             </ul>
 
     </div>
