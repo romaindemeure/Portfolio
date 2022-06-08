@@ -5,7 +5,7 @@
             <section class="section">
                 <a name="certificationPage"></a>
                 <div class="header">
-                    <h1 class="title"><span class="color">03.</span> Les formations que j'ai suivis</h1>
+                    <h1 class="title"><span class="color">03.</span> Les formations que j'ai suivies</h1>
                 </div>
 
                 <div class="main">
