@@ -14,7 +14,7 @@
                         </div>
 
                         <div class="divText">
-                            <p class="text">Étant admis a l'école CESI de Brest, <span class="color">je suis actuellement à la recherche d'une alternance dans le développement en Bretagne.</span>  Ayant tout appris en autodidacte, je touche un peu à tout (back, front). J'aimerais aujourd'hui approfondir mes compétences en développement grâce à une immersion en entreprise. Si mon profil vous intéresse, vous avez une question ou que vous souhaitez simplement me saluer, je vous répondrais avec plaisir.</p>
+                            <p class="text">Étant actuellement <span class="color"><a href="https://www.satelliz.com/">en première année d'alternance chez Satelliz</a></span> je ne suis pas a la recherche de nouvelles opportunités. Cependant si vous ayez une question ou que vous souhaitiez simplement me saluer, je vous répondrais avec plaisir.</p>
                         </div>
 
                         <div class="divButton">
