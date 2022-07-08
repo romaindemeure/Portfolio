@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="box boxText">
-                    <p class="text description">Passionné par le développement informatique depuis que j'ai 15 ans, je travaille principalement avec Javascript et Python. J'aime découvrir de nouvelles technologies, les apprendre et créer des projets. <span class="color"><a target="_blank" href="https://www.satelliz.com/">Je suis actuellement en alternance chez Satelliz.</a></span></p>
+                    <p class="text description">Passionné par le développement informatique depuis que j'ai 15 ans, je travaille principalement avec Javascript et Python. J'aime découvrir de nouvelles technologies, les apprendre et créer des projets. <span class="color"><a target="_blank" href="https://www.satelliz.com/">Je suis actuellement en alternance au sein de Satelliz.</a></span></p>
                 </div>
 
                 <div class="box boxButton">
