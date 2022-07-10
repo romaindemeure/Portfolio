@@ -14,7 +14,7 @@
                         </div>
 
                         <div class="divText">
-                            <p class="text">Étant actuellement <span class="color"><a href="https://www.satelliz.com/">en première année d'alternance au sein Satelliz</a></span> je ne suis pas a la recherche de nouvelles opportunités. Cependant si vous avez une question ou que vous souhaitiez simplement me saluer, je vous répondrais avec plaisir.</p>
+                            <p class="text">Étant actuellement <span class="color"><a href="https://www.satelliz.com/">en première année d'alternance au sein Satelliz,</a></span> je ne suis pas a la recherche de nouvelles opportunités. Cependant si vous avez une question ou que vous souhaitiez simplement me saluer, je vous répondrais avec plaisir.</p>
                         </div>
 
                         <div class="divButton">
